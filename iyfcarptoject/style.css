@@ -1,0 +1,543 @@
+body{
+    margin: 10px auto;
+    height: auto;
+    background: linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)50%),url(download\ \(3\).jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 1000px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+section{
+  width: 100%;
+  
+}
+
+header{
+  padding: 30px, 20px, 10px;
+  color: #f0b4b4;
+  width: 80%;
+  margin-top: 30px;
+
+
+}
+
+/* header section */
+
+
+.head-container{
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+  font-size: 40px;
+  width: 100%;
+  
+}
+.logo{
+  float: right;
+}
+.list{
+  list-style: none;
+  display: flex;
+  
+}
+
+.list a {
+  text-decoration: none;
+  margin: 10px;
+  color: #f0b4b4;
+}
+
+.head-btn{
+  display: flex;
+  margin: 5px;
+  float: left;
+}
+
+#log-btn{
+  border: none;
+  color: black;
+  background-color: white;
+}
+
+#sign-btn{
+  background-color: black;
+  color: white;
+}
+
+button{
+  background-color: black;
+  padding: 10px 20px;
+  color: white;
+}
+
+
+
+
+  
+/* hero section */
+.hero-container{
+  display: flex;
+  width: 90%;
+  justify-content: space-around;
+}
+
+.hero-para1{
+  font-size: 60px;
+  font-weight: 600;
+  color: #f0b4b4; 
+}
+
+.hero-para2{
+  padding-bottom: 20px;
+  font-size: 40px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #f0b4b4; 
+  
+}
+
+.input-area { 
+  border: 1px solid;
+  padding: 11px;
+  margin-right: -4px;
+}
+
+.signup-button {
+  padding: 11px 20px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  margin-bottom: 20px;
+}
+
+#herobutton{
+  background-color: grey;
+  border-radius: 95px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 25px; 
+}
+
+.herodiv3{
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.hero-text{
+  font-size: 20px;
+  margin: 5px;
+}
+
+.img-fluid{
+  display: flex;
+  margin-top: 20px;
+}
+.video-container {
+  position: relative;
+  width: 80%;
+  padding-bottom: 6.25%; /* 16:9 aspect ratio */
+}
+
+#video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  margin-left: 150px;
+  margin-top: 60px;
+}
+
+
+
+
+/* Statistics section */
+.stats-container {
+  /* border: 1px solid black; */
+  display: flex;
+  width: 40%;
+  height: auto;
+  margin: 30px auto;
+  justify-content: space-around;
+  background-color: black;
+  padding: 30px;
+  margin-top: 300px;
+}
+.stat-box {
+  text-align: center;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+.stat-box h2 {
+  margin: 0;
+  font-size: 2rem;
+}
+.stat-box p {
+  margin: 10px 0 0;
+  font-size: 1rem;
+  border-top: 1px solid gray;
+  padding-top: 5px;
+}
+
+/* .stat-box:not(:last-child) {
+
+  border-right: 1px solid gray;
+  padding-right: 20px;
+} */
+
+
+
+
+/*bast-sales*/
+.best-sales {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sales {
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 20px;
+  background-color: black;
+  text-align: ;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+/*bikes*/
+.bmw-bikes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bike {
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 20px;
+  background-color: black;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+/*SUV*/
+.bmw-suv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.suv {
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 20px;
+  background-color: black;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+
+
+
+
+/*Future*/
+.bmw-future {
+  display: flex;
+  justify-content: space-between;
+}
+
+.future {
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 20px;
+  background-color: black;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+
+
+
+
+.Repair-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; 
+  padding: 20px;
+  width: 40%;
+  float: right;
+}
+
+.text-section {
+
+}
+
+.lines {
+  height: 2px;
+  width: 100%;
+  background-color: #ccc;
+  margin: 10px 0;
+}
+
+.graphic-section {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  float: right;
+}
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+.container-problems {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  width: 50%;
+  margin-top: 100px;
+}
+
+.graphic-section {
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+
+.square {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #ccc;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.square::before, .square::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #ccc;
+}
+
+.square::before {
+  transform: rotate(45deg);
+}
+
+.square::after {
+  transform: rotate(-45deg);
+}
+
+.text-section {
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+.lines {
+  height: 2px;
+  width: 100%;
+  background-color: #ccc;
+  margin: 10px 0;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+.container1 {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.left-column, .right-column {
+  width: 45%;
+  padding: 20px;
+}
+
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.testimonial-container {
+  text-align: center;
+}
+
+.testimonial {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.testimonial img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.testimonial h3 {
+  margin: 0;
+}
+
+.testimonial p {
+  margin: 0;
+}
+
+
+
+
+
+
+
+
+
+footer {
+  background-color: #f0f0f0;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.logo img {
+  width: 150px;
+  height: auto;
+}
+
+.nav-links {
+  text-align: left;
+}
+
+.nav-links h3 {
+  margin-bottom: 10px;
+}
+
+.nav-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.nav-links li {
+  margin-bottom: 5px;
+}
+
+.social-links {
+  display: flex;
+  gap: 10px;
+}
+
+.social-links a {
+  color: #333;
+  text-decoration: none;
+}
+
+.social-links i {
+  font-size: 18px;
+}
+
+p {
+  margin: 0;
+  text-align: left;
+  color: #f0b4b4;
+}
+h1{
+  color: #f0b4b4;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+  color: #ffffff;
+}
+
+
+
+/*login css*/
+.container1 {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .left-column, .right-column {
+    width: 45%;
+    padding: 20px;
+  }
+  
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+@media screen (max-width:576px){
+  ::selection {
+    width: 40%;
+
+  }
+}
+ @media screen (max-width:768){
+
+ }
+
+  @media  (max-width:992px) {
+    ::selection{
+      width: 80%;
+    }
+    .head-container{
+      width: 80%;
+      font-size: 20px;
+    }
+  }
+  @media screen {
+    
+  }
